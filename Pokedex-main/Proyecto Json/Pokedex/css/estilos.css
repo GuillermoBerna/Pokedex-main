@@ -1,0 +1,157 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px ;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.bg-light {
+    background-color: #ffc500 !important; /*#DC143C */
+}
+
+.piedepagina {
+    background-color:#ffc500;
+    padding-top: 40px;
+}
+
+.contacto h4 {
+    margin: 0 35px;
+    font-weight: bold;
+    color: #0000ff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contacto a {
+    color: #DC143C;
+    padding: 10px 40px 0px 40px;
+}
+
+.contacto a:hover{
+    color: #ffffff;
+}
+
+.comparte {
+    text-align: center;
+    font-weight: bold;
+    color: #0000ff;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content:space-around;
+    margin: 0 126px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+
+
+}
+
+.redes-sociales a {
+    font-size: 15px;
+    color: #DC143C;
+}
+
+.redes-sociales a:hover{
+    color: #ffffff;
+}
+
+.ubi {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+.ubi h4 {
+    font-weight: bold;
+    color: #0000ff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ubi a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #DC143C;
+}
+
+.ubi a:hover{
+    color: #ffffff;
+}
+
+
+
+.copy {
+    background-color: #262626;
+
+
+}
+
+.copy h4 {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/*pokebola*/
+
+.wrapper
+{
+    position:relative;
+    top: 20px;
+    left: 48%;
+   transform: translate(-50%, -50%);
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+
+.pokeball {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50% ;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid;
+  left: 50%;
+  animation: frames .8s  linear 0s infinite;
+}
+
+.pokeball:after{
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background-color: red;
+  border-bottom: 4px solid;
+  top: -4px
+}
+
+.pokeball:before{
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  width: 20px;
+  height:20px;
+  border: 4px solid;
+  border-radius: 50%;
+  bottom: 18px;
+  right: 18px;
+  z-index: 1;
+}
+
+/* AnimationFrames */
+@keyframes frames{
+  0% {
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.margin{
+    margin-top:50px;
+}
